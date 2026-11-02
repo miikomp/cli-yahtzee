@@ -21,6 +21,7 @@ enum Input {
   INPUT_DOWN,
   INPUT_TOGGLE_FOCUS,
   INPUT_CONFIRM,
+  INPUT_EXIT
 };
 
 enum Sound {

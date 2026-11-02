@@ -200,7 +200,8 @@ int main(int argc, char **argv)
               playSound(SOUND_ROLL);
             }
           break;
-
+        case INPUT_EXIT:
+          continue;
         case INPUT_NONE:
           continue;
         }

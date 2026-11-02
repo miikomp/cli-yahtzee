@@ -64,6 +64,12 @@ enum Input readInput(void)
   if (first == '\n' || first == '\r')
     return INPUT_CONFIRM;
 
+  if (first == 'q')
+  {
+    quit_requested = 1;
+    return INPUT_EXIT;
+  }
+
   if (first != '\x1b')
     return INPUT_NONE;
 
