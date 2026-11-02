@@ -12,6 +12,8 @@ Roll dice with `space`, move with `arrow keys`, lock a die with `enter`, change 
 
 ## Interface
 
+Looks a bit more refined in an actual terminal, but below is an example of how the CLI looks:
+
 ```text
 Player 1's turn  Throws left: 2                                           Scorecard
                                                                           ┌──────────────────┬──────────┬──────────┐
